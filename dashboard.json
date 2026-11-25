@@ -1,0 +1,74 @@
+
+{
+  "widgets": [
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "properties": {
+        "metrics": [
+          ["Project21/VM", "CPUUtilization"]
+        ],
+        "view": "timeSeries",
+        "region": "ap-south-1",
+        "period": 300,
+        "stat": "Average",
+        "title": "VM CPU Utilization",
+        "yAxis": {
+          "left": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      }
+    },
+    {
+      "type": "metric",
+      "x": 8,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "properties": {
+        "metrics": [
+          ["Project21/VM", "MemoryUtilization"]
+        ],
+        "view": "timeSeries",
+        "region": "ap-south-1",
+        "period": 300,
+        "stat": "Average",
+        "title": "VM Memory Utilization",
+        "yAxis": {
+          "left": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      }
+    },
+    {
+      "type": "metric",
+      "x": 16,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "properties": {
+        "metrics": [
+          ["Project21/VM", "DiskUtilization"]
+        ],
+        "view": "timeSeries",
+        "region": "ap-south-1",
+        "period": 300,
+        "stat": "Average",
+        "title": "VM Disk Utilization",
+        "yAxis": {
+          "left": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      }
+    }
+  ]
+}
